@@ -1,0 +1,163 @@
+
+html {
+	height: 100%;
+}
+
+
+
+body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-image: linear-gradient(to bottom, #e3e3e3, #969696);
+	background-repeat: no-repeat; 	
+}
+
+.nav {
+	position: relative;
+	width: auto;
+	height: 75px;
+	background: white;
+	font-family: sans-serif;
+	margin: 0px;
+}
+
+.title{
+	position: fixed;
+	margin-left: 25px;
+	color: #d9d9d9;
+}
+.title h1{
+	transition: 1s;
+}
+
+.title h1:hover{
+	color: #787878;
+	text-decoration: 1s;
+}
+
+
+.nav-content {
+	float: right;
+}
+
+ul{
+	list-style: none;
+	list-style-type: none;
+}
+
+li {
+	float: right;
+
+}
+
+.button-green {
+	width: 75px;
+	height: 40px;
+	border: none;
+	background: #acffa3;
+	transition: 0.4s;
+	color: white;
+	border-radius: 5px;
+	margin: 10px;
+	margin-top: 0;
+	outline: none;
+	font-size: 20px;
+	text-align: center;
+}
+
+.button-green:hover {
+	background: #bfffc1;
+	transform: scale(1.15);
+	transition: 0.4s;
+	transform: scale(1.1);
+}
+
+.button-green:clicked {
+	outline: none;
+	
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.button-blue {
+	width: 75px;
+	height: 40px;
+	border: none;
+	background: #97f9fc;
+	transition: 0.4s;
+	color: white;
+	border-radius: 5px;
+	margin: 10px;
+	margin-top: 0;
+	outline: none;
+	font-size: 15px;
+	text-align: center;
+}
+
+.button-blue:hover {
+	background: #b6fafc;
+	transform: scale(1.15);
+	transition: 0.4s;
+	
+}
+
+.button-blue:activated {
+	outline: none;
+	
+}
+
+.content {
+	position: relative;
+	margin: 50px;
+	width: 600px;
+	height: 250px;
+	background: white;
+	font-family: sans-serif;
+	color: #9e9e9e;
+	border-radius: 10px;
+}
+
+#heading1 {
+	position: absolute;
+	margin: 15px;
+	font-size: 50px;
+}
+
+.sub-content {
+	position: absolute;
+	text-align: left;
+	margin-top: 100px;
+	margin-left: 10px;
+	font-size: 25px;
+}
+
+.button-blue-content {
+	width: 75px;
+	height: 40px;
+	border: none;
+	background: #97f9fc;
+	transition: 0.4s;
+	color: white;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-top: 200px;
+	outline: none;
+	font-size: 15px;
+	text-align: center;
+}
+
+.button-blue-content:hover {
+	background: #b6fafc;
+	transform: scale(1.15);
+	transition: 0.4s;
+	
+}
+
+.button-blue-content:activated {
+	outline: none;
+	
+}
